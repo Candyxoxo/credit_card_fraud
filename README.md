@@ -1,18 +1,4 @@
 
-```html
-<div align="justify">
-...
-</div>
-```
-
----
-
-# **Justified README**
-
-Below is the full README with justified alignment:
-
----
-
 <div align="justify">
 
 # <strong>Credit Card Fraud Detection Using Machine Learning</strong>
@@ -28,7 +14,7 @@ After testing models such as <strong>Logistic Regression, Decision Tree, Random 
 
 A <strong>Streamlit web application</strong> was implemented to provide real-time prediction with automatic preprocessing and user-friendly visualizations. The final system is efficient, interpretable, and easy to deploy.
 
----
+
 
 ## <strong>Features</strong>
 
@@ -48,7 +34,7 @@ A <strong>Streamlit web application</strong> was implemented to provide real-tim
 * Final best model: <strong>XGBoost + Random Oversampling</strong>
 * Streamlit web app for real-time fraud prediction
 
----
+
 
 ## <strong>Project Structure</strong>
 
@@ -63,7 +49,7 @@ A <strong>Streamlit web application</strong> was implemented to provide real-tim
 └── README.md
 ```
 
----
+
 
 ## <strong>Installation</strong>
 
@@ -71,7 +57,7 @@ A <strong>Streamlit web application</strong> was implemented to provide real-tim
 pip install -r requirements.txt
 ```
 
----
+
 
 ## <strong>Running the Streamlit App</strong>
 
@@ -79,14 +65,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
+
 
 ## <strong>Example Usage</strong>
 
 * Paste a full transaction row into the prediction UI
 * View parsed features, predicted fraud probability, and visual outputs
 
----
+
 
 ## <strong>Technologies Used</strong>
 
@@ -99,6 +85,6 @@ streamlit run app.py
 
 </div>
 
----
+
 
 
