@@ -5,7 +5,7 @@
 
 This project develops a machine learning–based system to detect fraudulent credit card transactions using the public Kaggle <strong>“Credit Card Fraud Detection”</strong> dataset, which contains anonymized PCA-transformed features for over <strong>280,000 European transactions</strong>, with only <strong>492 fraud cases (0.172%)</strong>.
 
-Because the dataset is <strong>highly imbalanced</strong>, multiple sampling strategies—oversampling, undersampling, and SMOTE—were evaluated to improve minority-class detection.
+Because the dataset is <strong>highly imbalanced</strong>, multiple sampling strategies, oversampling, undersampling, and SMOTE, were evaluated to improve minority-class detection.
 
 After testing models such as <strong>Logistic Regression, Decision Tree, Random Forest, and XGBoost</strong>, the best performance was achieved using <strong>XGBoost with Random Oversampling</strong>, yielding:
 
