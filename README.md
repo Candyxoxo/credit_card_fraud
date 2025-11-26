@@ -1,24 +1,62 @@
-# Credit Card Fraud Detection Using Machine Learning
-This project develops a machine learning–based system to detect fraudulent credit card transactions using the public Kaggle “Credit Card Fraud Detection” dataset which contains anonymized PCA transformed features for over 280,000 European transactions with only 492 fraud cases (0.172%). Because the data is extremely imbalanced, several resampling strategies, namely oversampling, undersampling, and SMOTE, were tested to improve minority‐class detection.
-After evaluating multiple models, including Logistic Regression, Decision Tree, Random Forest, and XGBoost, the combination of XGBoost with Random Oversampling delivered the best performance with an F1-score of 0.8913 and ROC-AUC of 0.9853.
-A Streamlit web application was developed to demonstrate real-time prediction using the trained model, with automatic preprocessing and user-friendly visualization tools. The final system provides an interpretable, accessible, and efficient fraud detection workflow.
+GitHub Markdown **does not support justified alignment** (`text-align: justify`) by default.
+However, you *can* achieve justified text using **HTML tags**, which GitHub fully supports.
 
-## Features
-- Exploratory data analysis and visualization
-- Preprocessing pipeline: scaling + PowerTransformer
-- Balancing techniques:
-  Random Oversampling: reduced majority class size, but caused information loss. 
-  Random Undersampling: duplicated minority samples, improving recall but introducing redundancy. 
-  SMOTE: generated synthetic samples using feature-space similarities, leading to better diversity and generalization. 
-- Evaluation of multiple ML models:
-  Logistic Regression: Served as baseline linear classifier 
-  Decision Tree: Captured non-linear and rule-based relationships 
-  Random Forest: Leveraged ensemble learning to improve robustness and reduce overfitting. 
-  XGBoost: A gradient boosting framework designed for speed, performance and handling imbalanced data efficiently. 
-- Final model: XGBoost with high F1-score and ROC-AUC
-- Streamlit app for real-time fraud prediction
+Here is your README with **justified alignment applied everywhere** using:
 
-## Project Structure
+```html
+<div align="justify">
+...
+</div>
+```
+
+---
+
+# **Justified README**
+
+Below is the full README with justified alignment:
+
+---
+
+<div align="justify">
+
+# <strong>Credit Card Fraud Detection Using Machine Learning</strong>
+
+This project develops a machine learning–based system to detect fraudulent credit card transactions using the public Kaggle <strong>“Credit Card Fraud Detection”</strong> dataset, which contains anonymized PCA-transformed features for over <strong>280,000 European transactions</strong>, with only <strong>492 fraud cases (0.172%)</strong>.
+
+Because the dataset is <strong>highly imbalanced</strong>, multiple sampling strategies—oversampling, undersampling, and SMOTE—were evaluated to improve minority-class detection.
+
+After testing models such as <strong>Logistic Regression, Decision Tree, Random Forest, and XGBoost</strong>, the best performance was achieved using <strong>XGBoost with Random Oversampling</strong>, yielding:
+
+* <strong>F1-Score:</strong> 0.8913
+* <strong>ROC-AUC:</strong> 0.9853
+
+A <strong>Streamlit web application</strong> was implemented to provide real-time prediction with automatic preprocessing and user-friendly visualizations. The final system is efficient, interpretable, and easy to deploy.
+
+---
+
+## <strong>Features</strong>
+
+* Exploratory data analysis and visualization
+* Preprocessing pipeline: Standard Scaling + PowerTransformer
+* Balancing techniques:
+
+  * <strong>Random Oversampling:</strong> Duplicated minority samples, improving recall but causing redundancy
+  * <strong>Random Undersampling:</strong> Reduced majority class size but led to information loss
+  * <strong>SMOTE:</strong> Generated synthetic samples, improving diversity and generalization
+* Evaluation of multiple machine learning models:
+
+  * <strong>Logistic Regression:</strong> Baseline linear classifier
+  * <strong>Decision Tree:</strong> Captures nonlinear, rule-based patterns
+  * <strong>Random Forest:</strong> Ensemble method enhancing stability and reducing overfitting
+  * <strong>XGBoost:</strong> Fast, powerful gradient boosting algorithm suited for imbalanced datasets
+* Final best model: <strong>XGBoost + Random Oversampling</strong>
+* Streamlit web app for real-time fraud prediction
+
+---
+
+## <strong>Project Structure</strong>
+
+```
 .
 ├── app.py
 ├── credit.ipynb
@@ -27,21 +65,44 @@ A Streamlit web application was developed to demonstrate real-time prediction us
 ├── Dataset/
 │   └── creditcard.csv
 └── README.md
+```
 
-## Installation
+---
+
+## <strong>Installation</strong>
+
+```bash
 pip install -r requirements.txt
+```
 
-## Running the Streamlit App
+---
+
+## <strong>Running the Streamlit App</strong>
+
+```bash
 streamlit run app.py
+```
 
-## Example Usage
-- Paste a full transaction row into the prediction page
-- View parsed features, fraud probability, and visual outputs
+---
 
-## Technologies Used
-- Python, pandas, numpy
-- scikit-learn
-- XGBoost
-- imbalanced-learn
-- Streamlit
+## <strong>Example Usage</strong>
+
+* Paste a full transaction row into the prediction UI
+* View parsed features, predicted fraud probability, and visual outputs
+
+---
+
+## <strong>Technologies Used</strong>
+
+* Python
+* pandas, numpy
+* scikit-learn
+* XGBoost
+* imbalanced-learn
+* Streamlit
+
+</div>
+
+---
+
 
