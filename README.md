@@ -16,10 +16,20 @@ A <strong>Streamlit web application</strong> was implemented to provide real-tim
 
 
 
+## <strong>Dataset & Model Downloads</strong>
+
+* **Kaggle Dataset:**
+  [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+* **Trained XGBoost Model (Google Drive):**
+  [https://drive.google.com/file/d/1p3mVl9Fo2FGPLt77M6AeTI471RBEWaAD/view?usp=drive_link](https://drive.google.com/file/d/1p3mVl9Fo2FGPLt77M6AeTI471RBEWaAD/view?usp=drive_link)
+
+
+
 ## <strong>Features</strong>
 
 * Exploratory data analysis and visualization
-* Preprocessing pipeline: Standard Scaling + PowerTransformer
+* Preprocessing pipeline: Standard Scaling and PowerTransformer
 * Balancing techniques:
 
   * <strong>Random Oversampling:</strong> Duplicated minority samples, improving recall but causing redundancy
@@ -31,7 +41,7 @@ A <strong>Streamlit web application</strong> was implemented to provide real-tim
   * <strong>Decision Tree:</strong> Captures nonlinear, rule-based patterns
   * <strong>Random Forest:</strong> Ensemble method enhancing stability and reducing overfitting
   * <strong>XGBoost:</strong> Fast, powerful gradient boosting algorithm suited for imbalanced datasets
-* Final best model: <strong>XGBoost + Random Oversampling</strong>
+* Final best model: <strong>XGBoost with Random Oversampling</strong>
 * Streamlit web app for real-time fraud prediction
 
 
@@ -84,7 +94,4 @@ streamlit run app.py
 * Streamlit
 
 </div>
-
-
-
 
