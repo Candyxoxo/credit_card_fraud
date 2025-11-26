@@ -1,7 +1,3 @@
-GitHub Markdown **does not support justified alignment** (`text-align: justify`) by default.
-However, you *can* achieve justified text using **HTML tags**, which GitHub fully supports.
-
-Here is your README with **justified alignment applied everywhere** using:
 
 ```html
 <div align="justify">
