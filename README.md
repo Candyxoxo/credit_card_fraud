@@ -8,7 +8,7 @@ To address this imbalance and improve fraud detection, several preprocessing, tr
 
 A **Streamlit web application** is also provided for real-time prediction and demonstration of how the trained model can be incorporated into a user-facing environment.
 
----
+
 
 # **Problem Statement**
 
@@ -28,7 +28,7 @@ Build a robust machine learning system that:
 * Provides accurate predictions
 * Can be deployed and used for live inference
 
----
+
 
 # **Dataset Details**
 
@@ -51,7 +51,7 @@ Kaggle — *Credit Card Fraud Detection*
 
 The PCA transformation ensures anonymity and reduces the risk of linking back to personally identifiable information (PII).
 
----
+
 
 # **Project Pipeline**
 
@@ -108,7 +108,7 @@ Models evaluated:
   * **Fraud Probability**
   * **Parsed Features**
 
----
+
 
 # **Features Implemented**
 
@@ -153,7 +153,7 @@ Models evaluated:
 [https://drive.google.com/file/d/1p3mVl9Fo2FGPLt77M6AeTI471RBEWaAD/view?usp=drive_link](https://drive.google.com/file/d/1p3mVl9Fo2FGPLt77M6AeTI471RBEWaAD/view?usp=drive_link)
 
 
----
+
 
 # **Project Structure**
 
@@ -168,7 +168,7 @@ Models evaluated:
 └── README.md
 ```
 
----
+
 
 # **Installation**
 
@@ -176,7 +176,7 @@ Models evaluated:
 pip install -r requirements.txt
 ```
 
----
+
 
 # **Running the Streamlit App**
 
@@ -184,7 +184,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
+
 
 # **Example Usage**
 
@@ -196,7 +196,7 @@ streamlit run app.py
    * Fraud / Not Fraud prediction
    * Probability score
 
----
+
 
 # **Technologies Used**
 
