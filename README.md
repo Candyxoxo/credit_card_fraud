@@ -207,11 +207,5 @@ streamlit run app.py
 * imbalanced-learn
 * Streamlit
 
----
-
-# **Contributions & Acknowledgements**
-
-This project was self-developed for academic purposes using publicly available datasets. Thanks to Kaggle and the ULB Machine Learning Group for providing the dataset.
-
 </div>
 
