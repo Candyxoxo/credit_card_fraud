@@ -189,7 +189,7 @@ streamlit run app.py
 # **Example Usage**
 
 1. Open the web app
-2. Paste a full transaction row
+2. Paste a full transaction row or select index of transaction row from dataset
 3. View:
 
    * Parsed transaction features
